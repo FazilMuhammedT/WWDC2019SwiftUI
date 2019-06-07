@@ -13,7 +13,7 @@ struct ContentView : View {
 
     var body: some View {
         List(rooms) { room in
-            Image(systemName: "photo")
+            Image(room.thumbnailName)
             VStack(alignment: .leading) {
                 Text(room.name)
                 Text("\(room.capacity) people")

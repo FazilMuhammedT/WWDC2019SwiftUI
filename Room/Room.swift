@@ -28,6 +28,6 @@ let testData = [
     Room(name: "Ocean Front", capacity: 8, hasVideo: false),
     Room(name: "Rainbow Room", capacity: 10, hasVideo: true),
     Room(name: "Pastoral", capacity: 7, hasVideo: false),
-    Room(name: "Elephant", capacity: 1, hasVideo: false),
+    Room(name: "Elephant Room", capacity: 1, hasVideo: false),
 ]
 #endif
