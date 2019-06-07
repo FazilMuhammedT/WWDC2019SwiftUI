@@ -14,6 +14,7 @@ struct ContentView : View {
     var body: some View {
         List(rooms) { room in
             Image(room.thumbnailName)
+                .cornerRadius(8)
             VStack(alignment: .leading) {
                 Text(room.name)
                 Text("\(room.capacity) people")
