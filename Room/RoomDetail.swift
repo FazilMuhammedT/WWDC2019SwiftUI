@@ -14,13 +14,14 @@ struct RoomDetail : View {
         Image(room.imageName)
             .resizable()
             .aspectRatio(contentMode: .fit)
+            .navigationBarTitle(Text(room.name), displayMode: .inline)
     }
 }
 
 #if DEBUG
 struct RoomDetail_Previews : PreviewProvider {
     static var previews: some View {
-        RoomDetail(room: testData[0])
+        NavigationView { RoomDetail(room: testData[0]) }
     }
 }
 #endif

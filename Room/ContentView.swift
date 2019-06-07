@@ -32,7 +32,7 @@ struct ContentView_Previews : PreviewProvider {
 struct RoomCell : View {
     let room:Room
     var body: some View {
-        return NavigationButton(destination: Text(room.name)) {
+        return NavigationButton(destination: RoomDetail(room: room)) {
             Image(room.thumbnailName)
                 .cornerRadius(8)
                 VStack(alignment: .leading) {
