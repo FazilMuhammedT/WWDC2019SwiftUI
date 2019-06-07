@@ -15,6 +15,7 @@
 		D51B3A0122AA082600C2C8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51B39FF22AA082600C2C8DF /* LaunchScreen.storyboard */; };
 		D51B3A0922AA0B2300C2C8DF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B3A0822AA0B2300C2C8DF /* Room.swift */; };
 		D51B3A0B22AA13D100C2C8DF /* Room.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51B3A0A22AA13D100C2C8DF /* Room.xcassets */; };
+		D51B3A0D22AA1DEB00C2C8DF /* RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51B3A0C22AA1DEB00C2C8DF /* RoomDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D51B3A0222AA082600C2C8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D51B3A0822AA0B2300C2C8DF /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		D51B3A0A22AA13D100C2C8DF /* Room.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Room.xcassets; sourceTree = "<group>"; };
+		D51B3A0C22AA1DEB00C2C8DF /* RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D51B39F422AA082400C2C8DF /* AppDelegate.swift */,
 				D51B39F622AA082400C2C8DF /* SceneDelegate.swift */,
 				D51B39F822AA082400C2C8DF /* ContentView.swift */,
+				D51B3A0C22AA1DEB00C2C8DF /* RoomDetail.swift */,
 				D51B3A0822AA0B2300C2C8DF /* Room.swift */,
 				D51B3A0A22AA13D100C2C8DF /* Room.xcassets */,
 				D51B39FA22AA082600C2C8DF /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51B3A0D22AA1DEB00C2C8DF /* RoomDetail.swift in Sources */,
 				D51B39F522AA082400C2C8DF /* AppDelegate.swift in Sources */,
 				D51B39F722AA082400C2C8DF /* SceneDelegate.swift in Sources */,
 				D51B3A0922AA0B2300C2C8DF /* Room.swift in Sources */,
